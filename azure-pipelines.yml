@@ -2,7 +2,8 @@ trigger:
 - main
 
 pool:
- name: 'MyPool'
+ name: 'Azure Pipelines'
+ image: 'ubuntu-latest'
 
 steps:
     - task: Docker@2
