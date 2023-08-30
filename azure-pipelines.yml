@@ -3,7 +3,6 @@ trigger:
 
 pool:
  name: 'MyPool'
- vmImage: 'ubuntu-latest'
 
 steps:
     - task: Docker@2
