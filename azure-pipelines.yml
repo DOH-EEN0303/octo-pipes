@@ -3,7 +3,7 @@ trigger:
 
 pool:
  name: 'Azure Pipelines'
- image: 'ubuntu-latest'
+ vmImage: 'ubuntu-latest'
 
 steps:
     - task: Docker@2
