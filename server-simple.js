@@ -18,7 +18,7 @@ var http = require('http');
 
 // define the IP and port number
 var localIP = "127.0.0.1"; // 127.0.0.1 is used when running the server locally
-var port = 8080; // port to run webserver on
+var port = 80; // port to run webserver on
 
 var counter = 0;
 
