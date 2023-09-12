@@ -14,7 +14,7 @@ variables:
   imageRepository: 'enterocopus'
   containerRegistry: 'nautiloidea.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(trevor)'
+  tag: 'trevor'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
